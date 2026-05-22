@@ -1,0 +1,135 @@
+# ── Virtual Environments ──────────────────────────────────────────────────────
+.venv/
+venv/
+env/
+ENV/
+.env/
+.conda/
+conda-env/
+
+# ── Data ─────────────────────────────────────────────────────────────────────
+data/
+datasets/
+raw/
+processed/
+interim/
+external/
+*.csv
+*.tsv
+*.json
+*.parquet
+*.feather
+*.pkl
+*.pickle
+*.h5
+*.hdf5
+*.db
+*.sqlite
+*.sqlite3
+*.xlsx
+*.xls
+
+# ── Secrets & Credentials ─────────────────────────────────────────────────────
+.env
+.env.*
+*.env
+secrets.yaml
+secrets.yml
+secrets.json
+config/secrets*
+credentials*
+*_credentials*
+service_account*.json
+*.pem
+*.key
+*.p12
+*.pfx
+
+# ── Models & Large Files ──────────────────────────────────────────────────────
+models/
+checkpoints/
+weights/
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.safetensors
+*.onnx
+*.pb
+*.tflite
+
+# ── Jupyter Notebooks ────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+# Uncomment below to exclude notebooks entirely (if you only share .py scripts)
+# *.ipynb
+
+# ── Python Cache & Build ──────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+.Python
+build/
+dist/
+*.egg-info/
+*.egg
+.eggs/
+*.whl
+MANIFEST
+
+# ── Testing & Coverage ────────────────────────────────────────────────────────
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+*.coveragerc
+.tox/
+.nox/
+
+# ── Logs & Reports ───────────────────────────────────────────────────────────
+logs/
+*.log
+*.out
+*.err
+reports/
+*.report
+
+# ── OS & Editor Junk ──────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+.Spotlight-V100
+.Trashes
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# ── MLflow / DVC / Experiment Tracking ───────────────────────────────────────
+mlruns/
+mlartifacts/
+.dvc/
+.dvc/cache/
+wandb/
+
+# ── Outputs ──────────────────────────────────────────────────────────────────
+outputs/
+results/
+figures/
+plots/
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg
+*.pdf
+
+# ── Misc ─────────────────────────────────────────────────────────────────────
+.cache/
+.temp/
+tmp/
+temp/
