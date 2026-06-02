@@ -116,17 +116,6 @@ mlartifacts/
 .dvc/cache/
 wandb/
 
-# ── Outputs ──────────────────────────────────────────────────────────────────
-outputs/
-results/
-figures/
-plots/
-*.png
-*.jpg
-*.jpeg
-*.gif
-*.svg
-*.pdf
 
 # ── Misc ─────────────────────────────────────────────────────────────────────
 .cache/
