@@ -18,19 +18,7 @@ The dataset contains 126 survey responses with six questions rated 1–5 and a b
 | X5 | I am satisfied with my courier |
 | X6 | The app makes ordering easy for me |
 
----
 
-## Repository Structure
-
-```
-├── CustomerHappiness_EDA_Modelling.ipynb       ← EDA, feature analysis, and final models (RF, KNN, Stack)
-├── Failed_models.ipynb           ← All models that were tried but didn't make the cut
-├── ACME-HappinessSurvey2020.csv  ← Raw survey data
-├── PLOTS/                        ← All saved confusion matrices and charts
-└── README.md
-```
-
----
 
 ## The Journey — How We Got to the Final Model
 
